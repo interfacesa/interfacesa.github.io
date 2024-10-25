@@ -11,11 +11,12 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: 'Exo', sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
 h1 {
-    font-size: 85pt;
+    font-size: 72pt;
 }
 #header h1 {
     display: inline;
@@ -31,7 +32,7 @@ h1 {
 .context h1 {
     text-align: center;
     color: #fff;
-    font-size: 85pt;
+    font-size: 72pt;
 }
 
 
@@ -226,7 +227,7 @@ button {
     position: fixed;
     top: 47%;
     right: 45%;
-    width: 9vw;
+    width: 8vw;
     height: 40%;
     z-index: 1000;
 }
@@ -249,8 +250,8 @@ div.art {
     width: 40%;
 }
 .powerToughness {
-    width: 7em;
-    top: -490px;
+    width: 8em;
+    top: -520px;
     right: 0;
     text-align: center;
     float: right;
@@ -389,8 +390,8 @@ div.art {
     }
 
     .powerToughness {
-        width: 7em;
-        top: -490px;
+        width: 9em;
+        top: -520px;
         right: 0;
         text-align: center;
         float: right;
@@ -405,6 +406,13 @@ div.art {
         border: 0 none;
         font-size: 21px;
         z-index: 10000;
+    }
+
+    .imhBtm{
+        height: 80%;
+        display: flexbox;
+        background-color: transparent;
+        box-shadow: none;
     }
 
     .ms {
